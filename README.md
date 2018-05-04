@@ -1,8 +1,8 @@
 # JetsonTX2-Colour-Classification
 
-A small project for classification of images based on colour on NVIDIA Jetson TX2 using Deep learning and Caffe.It is basically a classification program to recognize images
-using a webcam,in real-time.The dataset used for trainig contains about 8,400 images labelled across the classes Red,Blie,Green and Orange.It consists of images of objects and textures of the aforementioned colours.
-The model was trained on a PC and was deploued on Jetson TX2 for real-time classification.The LED's connected to the system will glow according to the colour of the image that is classified.
+A small project for classification of images based on colour, on NVIDIA Jetson TX2 using Deep learning and Caffe.It is basically a classification program to recognize images
+using a webcam,in real-time.The dataset used for training contains about 8,400 images labelled across the classes Red,Blue,Green and Orange.It consists of images of objects and textures of the aforementioned colours.
+The model was trained on a PC and was deployed on Jetson TX2 for real-time classification.The LED's connected to the system will glow according to the colour of the image that is classified.
 ## Getting Started
 
 Recommended basic knowledge of Embedded Systems and Linux.
@@ -29,7 +29,8 @@ See: https://jkjung-avt.github.io/opencv3-on-tx2/ for installation of OpenCV.
 ### Running the tests
 
 First, connect the LED's to GPIO pins as shown in video through suitable resistors.
-Ensure proper 'ground' (GND) connections.The required data files for the program can be found in data folder.Make neccessary changes for file path in the program before executing the program.
+Ensure proper 'ground' (GND) connections.The required data files for the program can be found in data folder.Make neccessary changes for file path in the program before executing the program.Additonal scripts for help are located in the scripts folder
+
 Enure the dependencies and packages are properly installed (versions).
 
 In terminal:-
