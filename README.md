@@ -29,7 +29,7 @@ See: https://jkjung-avt.github.io/opencv3-on-tx2/ for installation of OpenCV.
 ### Running the tests
 
 First, connect the LED's to GPIO pins as shown in video through suitable resistors.
-Ensure proper 'ground' (GND) connections.The required data files for the program can be found in data folder.Make neccessary changes for file path in the program before executing the program.Additonal scripts for help are located in the scripts folder
+Ensure proper 'ground' (GND) connections.The required data files for the program can be found in data folder.Make neccessary changes for file path in the program before executing the program.Additonal scripts for help are located in the scripts folder.The dataset (used for training) can be obtained from the link in the data folder.
 
 Enure the dependencies and packages are properly installed (versions).
 
@@ -54,9 +54,7 @@ Free to use, share or modify!! ... Copyleft!!
 
 ## Acknowledgments
 * "http://www.jetsonhacks.com/nvidia-jetson-tx2-j21-header-pinout/"
-* "https://youtu.be/D7lkth34rgM"
 * "https://developer.nvidia.com/embedded/twodaystoademo"
 * "http://www.jetsonhacks.com/2015/12/29/gpio-interfacing-nvidia-jetson-tx1/"
-* "https://github.com/jgv7/CNN-HowManyFingers"
 *  Nvidia Developer Forums - "https://devtalk.nvidia.com/"
 
